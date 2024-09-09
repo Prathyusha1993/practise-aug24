@@ -10,12 +10,14 @@ import FetchDisplay from './components/FetchDisplay';
 import SimpleReactHook from './components/SimpleReactHook';
 import TodoPlaceholder from './components/TodoPlaceholder';
 import RadioButton from './components/RadioButton';
+import InputFields from './components/InputFields';
 
 const App = () => {
   const appRouter = createBrowserRouter(
     [
       {path: '/',
-        element: <><Header /><Home /> <TodoPlaceholder /> <RadioButton /></>
+        // element: <><Header /><Home /> <TodoPlaceholder /> <RadioButton /></>
+        element: <><Header /><Home /> <InputFields /></>
       },
       {path: '/about',
         element: <><Header /><About /></>
