@@ -1,4 +1,4 @@
-import useDebounce from "./useDebounce";
+import useDebounce from "./customHooks/useDebounce";
 
 const SearchComponent = () => {
     const [searchTerm, setSearchTerm] = useState('');

@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import useCustomHook from './useCustomHook';
+import useCustomHook from './customHooks/useCustomHook';
 import MoveWithCursor from './MoveWithCursor';
 
 const SimpleReactHook = () => {
